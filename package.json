@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NoahYarian/sql-node-lite/issues"
   },
-  "homepage": "https://github.com/NoahYarian/sql-node-lite#readme"
+  "homepage": "https://github.com/NoahYarian/sql-node-lite#readme",
+  "dependencies": {
+    "sqlite3": "^3.0.10"
+  }
 }
