@@ -1,0 +1,68 @@
+1. Create table
+     _________________________
+    |    Category Favorites   |
+    |=========================|
+--> | FavoriteID | CategoryID |
+     -------------------------
+    |            |            |
+
+---> PK FavoriteID int Not NULL Auto Increment
+---> CategoryID int Not NULL
+
+2. Insert 4 rows of data
+--> CatID 2, 4, 6, 8
+
+     _________________________
+    |    Category Favorites   |
+    |=========================|
+--> | FavoriteID | CategoryID |
+     -------------------------
+    |     1      |      2     |
+    |     2      |      4     |
+    |     3      |      6     |
+    |     4      |      8     |
+
+3. Query for...
+     ___________________________________
+    |   Favorite Category Descriptions  |
+    |===================================|
+--> | FavoriteID | Category Description |
+     -----------------------------------
+    |            |                      |
+
+4. Update...
+     _________________________
+    |    Category Favorites   |
+    |=========================|
+--> | FavoriteID | CategoryID |
+     -------------------------
+    |     1      |      2     |
+    |     2      |      5     | <--- from 4 to 5
+    |     3      |      6     |
+    |     4      |      8     |
+
+5. Redo query from #3
+
+6. Delete FavoriteID 3 row
+     _________________________
+    |    Category Favorites   |
+    |=========================|
+--> | FavoriteID | CategoryID |
+     -------------------------
+    |     1      |      2     |
+    |     2      |      5     |
+    |     4      |      8     |
+
+7. Insert another row...
+
+     _________________________
+    |    Category Favorites   |
+    |=========================|
+--> | FavoriteID | CategoryID |
+     -------------------------
+    |     1      |      2     |
+    |     2      |      5     |
+    |     4      |      8     |
+    |     5      |      1     | <-- maybe 3? maybe 5? depends on how it works.
+
+8. Redo query from #3
